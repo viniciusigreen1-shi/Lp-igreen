@@ -243,6 +243,45 @@
   .discount-cat{font-size:11.5px;color:rgba(255,255,255,.5);}
   .discount-off{font-size:12.5px;font-weight:700;color:var(--neon);white-space:nowrap;}
 
+  .conexoes{
+    padding:80px 20px;
+    background:#f5f8f7;
+    text-align:center;
+}
+
+.conexoes h2{
+    color:#0f8b45;
+    font-size:2rem;
+    margin-bottom:10px;
+}
+
+.conexoes p{
+    margin-bottom:40px;
+    color:#555;
+}
+
+.videos-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}
+
+.video-card{
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+
+.video-card h3{
+    padding:18px;
+    color:#0f8b45;
+}
+
+.video-card video{
+    width:100%;
+    display:block;
+}
 </style>
 </head>
 <body>
@@ -334,6 +373,33 @@
     </div>
   </div>
 </section>
+
+  <section class="conexoes">
+  <div class="container">
+    <h2>Conheça nossas Conexões</h2>
+    <p>Entenda como economizar na conta de energia com a iGreen.</p>
+
+    <div class="videos-grid">
+
+      <div class="video-card">
+        <h3>Conexão Green</h3>
+        <video controls playsinline preload="metadata">
+          <source src="conexao-green.mp4" type="video/mp4">
+          Seu navegador não suporta vídeo.
+        </video>
+      </div>
+
+      <div class="video-card">
+        <h3>Conexão Livre</h3>
+        <video controls playsinline preload="metadata">
+          <source src="conexao-livre.mp4" type="video/mp4">
+          Seu navegador não suporta vídeo.
+        </video>
+      </div>
+
+    </div>
+  </div>
+  </section>
 
 <!-- ================= WHY BAND ================= -->
 <section id="beneficios" style="padding:20px 0 100px;">
